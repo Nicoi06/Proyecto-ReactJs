@@ -1,3 +1,4 @@
+
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 
@@ -15,7 +16,7 @@ const CartItem = ({ id, nombre, precio, quantity, img }) => {
                 <li className="list-item">
                     <div className="columns is-vcentered">
                         
-                        {/* Columna para la imagen */}
+                        {/* /* Columna para la imagen */}
                         <div className="column is-one-quarter">
                             <figure className="image is-128x128">
                                 <img src={img} alt={nombre} style={{ maxWidth: "100%", maxHeight: "100%" }} />

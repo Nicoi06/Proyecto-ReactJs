@@ -1,0 +1,24 @@
+.button {
+    color: blueviolet;
+    background-color: red;
+}
+.nivel {
+    display: flex;
+    justify-content: center;
+    
+}
+.nivel .button-menos {
+    width: 50px;
+    color: black;
+    background-color: red;
+    margin-right: 10px;
+    
+}
+.nivel .button-mas {
+    width: 50px;
+    color: black;
+    background-color: green;
+    
+    margin-left: 10px;
+    
+}

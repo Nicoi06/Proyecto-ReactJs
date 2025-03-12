@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+background-color: yellow;
+width: 100%;
+}
+.Listado {
+    border: 5px;
+    border-color: black;
+    color: black;
+    background-color: coral;
+}
+.columns {
+    background-color: coral;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.ListGroup {
+    
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.Bienvenidos {
+    text-align: center;
+    justify-content: center;
+}
+.column {
+    background-color: coral;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}

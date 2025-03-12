@@ -14,12 +14,13 @@ const Cart = () => {
             </div>
         )
     }
-
+    
     return (
         <div className="m-5">
             <h1 className="is-size-3 has-text-left">Carrito de compras</h1>
             {cart.map(p => <CartItem key={p.id} {...p} />)}
             <div className="has-background-primary-10 p-5">
+                
                 <h2 className="has-text-primary-70 ">Total: ${total}</h2>
                 <button onClick={() => clearCart()} className="button is-danger m-3">Limpiar carrito</button>
                 <Link to="/checkout" className="Option">Checkout</Link>

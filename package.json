@@ -15,6 +15,7 @@
     "bulma": "^1.0.3",
     "cra-template": "1.2.0",
     "firebase": "^11.4.0",
+    "mdbreact": "^5.2.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",

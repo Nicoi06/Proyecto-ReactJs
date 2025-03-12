@@ -39,7 +39,7 @@ const ItemListContainer = ({ greeting }) => {
                         return (
                             <div className="container">
                                 <h2 className="title">{greeting}</h2>
-                                <h3 className="has-text-centered is-size-3 mb-5">Listado de productos</h3>
+                                <h3 className="Listado has-text-centered is-size-3 mb-5 ">Listado de productos</h3>
                                 {loading ? (
                                     <h1 className="text is-size-4">Cargando detalles ...</h1>
                                     
